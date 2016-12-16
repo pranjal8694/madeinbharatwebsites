@@ -1,6 +1,6 @@
 
 /* =================================== */
-/*	Basic Style
+/*	Basic Style 
 /* =================================== */
 
 body {
@@ -9,9 +9,6 @@ body {
     line-height: 21px;
 	font-size: 13px;
     color: black;
-}
-#madeinbharatimage{
-  background-position-x: 50%;
 }
 
 ol, ul {
@@ -26,7 +23,7 @@ figure, p {
 
 a {
     color: #fff;
-
+	
     -webkit-transition: all .3s ease-in 0s;
        -moz-transition: all .3s ease-in 0s;
         -ms-transition: all .3s ease-in 0s;
@@ -58,11 +55,11 @@ h4, h5, h6 {
     content: " ";
     display: table;
 }
-
+ 
 .clear:after {
    clear: both;
 }
-
+ 
 .clear {
    *zoom: 1;
 }
@@ -147,7 +144,7 @@ body > section,
   background-color: #3498db;
   border: 0 none;
   margin: 0;
-
+  
     -webkit-transition: background-color 800ms linear;
        -moz-transition: background-color 800ms linear;
 	    -ms-transition: background-color 800ms linear;
@@ -383,15 +380,15 @@ top: -8px;
 	width: 100%;
 	height: 100%;
 	color: #fff;
-
+	
 	opacity: 0;
 	filter: alpha(opacity=0);
-
-	-webkit-transition: all 450ms ease-out 0s;
+	
+	-webkit-transition: all 450ms ease-out 0s;	
 	   -moz-transition: all 450ms ease-out 0s;
 		 -o-transition: all 450ms ease-out 0s;
 		    transition: all 450ms ease-out 0s;
-
+		  
 	-webkit-transform: rotateY(180deg) scale(0.5,0.5);
 	   -moz-transform: rotateY(180deg) scale(0.5,0.5);
 		-ms-transform: rotateY(180deg) scale(0.5,0.5);
@@ -402,7 +399,7 @@ top: -8px;
 .work-item:hover .overlay {
 	opacity: 1;
 	filter: alpha(opacity=100);
-
+	
 	-webkit-transform: rotateY(0deg) scale(1,1);
 	   -moz-transform: rotateY(0deg) scale(1,1);
 		-ms-transform: rotateY(0deg) scale(1,1);
@@ -443,10 +440,7 @@ top: -8px;
   height: 225.5px;
   width: 337px;
 }
-#socialimage{
-  height: 225.5px;
-  width: 337px;
-}
+
 #heading2{
   color: white;
 }
@@ -484,7 +478,7 @@ top: -8px;
 	cursor: pointer;
 	opacity: 1;
 	filter: alpha(opacity=100);
-
+	
 	-webkit-transform: rotateY(0deg) scale(1,1);
 	   -moz-transform: rotateY(0deg) scale(1,1);
 		-ms-transform: rotateY(0deg) scale(1,1);
