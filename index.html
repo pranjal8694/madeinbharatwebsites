@@ -491,7 +491,7 @@ website developer questions
 			<div class="project-wrapper">
 
 				<figure class="mix work-item branding">
-					<img src="img/professionals.jpg" id="professionalsimage" alt="">
+					<img src="img/professionals.jpg" id="professionalimage" alt="">
 					<figcaption class="overlay">
 						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
 						<h4>Professional Templates</h4>
@@ -731,55 +731,55 @@ We thrive for perfection and everyday we give our best to make this world a bett
 				/*	Contact Form
 				/* ========================================================================= */
 
-				$('#contact-form').validate({
-					rules: {
-						name: {
-							required: true,
-							minlength: 2
-						},
-						email: {
-							required: true,
-							email: true
-						},
-						message: {
-							required: true
-						}
-					},
-					messages: {
-						name: {
-							required: "come on, you have a name don't you?",
-							minlength: "your name must consist of at least 2 characters"
-						},
-						email: {
-							required: "no email, no message"
-						},
-						message: {
-							required: "um...yea, you have to write something to send this form.",
-							minlength: "thats all? really?"
-						}
-					},
-					submitHandler: function(form) {
-						$(form).ajaxSubmit({
-							type:"POST",
-							data: $(form).serialize(),
-							url:"process.php",
-							success: function() {
-								$('#contact-form :input').attr('disabled', 'disabled');
-								$('#contact-form').fadeTo( "slow", 0.15, function() {
-									$(this).find(':input').attr('disabled', 'disabled');
-									$(this).find('label').css('cursor','default');
-									$('#success').fadeIn();
-								});
-							},
-							error: function() {
-								$('#contact-form').fadeTo( "slow", 0.15, function() {
-									$('#error').fadeIn();
-								});
-							}
-						});
-					}
-				});
-			});
+			// 	$('#contact-form').validate({
+			// 		rules: {
+			// 			name: {
+			// 				required: true,
+			// 				minlength: 2
+			// 			},
+			// 			email: {
+			// 				required: true,
+			// 				email: true
+			// 			},
+			// 			message: {
+			// 				required: true
+			// 			}
+			// 		},
+			// 		messages: {
+			// 			name: {
+			// 				required: "come on, you have a name don't you?",
+			// 				minlength: "your name must consist of at least 2 characters"
+			// 			},
+			// 			email: {
+			// 				required: "no email, no message"
+			// 			},
+			// 			message: {
+			// 				required: "um...yea, you have to write something to send this form.",
+			// 				minlength: "thats all? really?"
+			// 			}
+			// 		},
+			// 		submitHandler: function(form) {
+			// 			$(form).ajaxSubmit({
+			// 				type:"POST",
+			// 				data: $(form).serialize(),
+			// 				url:"process.php",
+			// 				success: function() {
+			// 					$('#contact-form :input').attr('disabled', 'disabled');
+			// 					$('#contact-form').fadeTo( "slow", 0.15, function() {
+			// 						$(this).find(':input').attr('disabled', 'disabled');
+			// 						$(this).find('label').css('cursor','default');
+			// 						$('#success').fadeIn();
+			// 					});
+			// 				},
+			// 				error: function() {
+			// 					$('#contact-form').fadeTo( "slow", 0.15, function() {
+			// 						$('#error').fadeIn();
+			// 					});
+			// 				}
+			// 			});
+			// 		}
+			// 	});
+			// });
 		</script>
     </body>
 </html>
