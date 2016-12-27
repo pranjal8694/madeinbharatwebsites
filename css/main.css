@@ -59,6 +59,12 @@ h4, h5, h6 {
     display: table;
 }
 
+.height{
+  width: 100%,
+
+  height: 100%
+  display: block;
+  }
 .clear:after {
    clear: both;
 }
@@ -366,15 +372,19 @@ top: -8px;
     float: left;
     width: 25%;
     position: relative;
+    height: 200px;
+    overflow: hidden;
 }
 
 .work-item > img {
   display: block;
-  height: auto;
-  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  margin: 10px;
 }
 
 .overlay {
+  margin: 10px;
 	background-color:#3498db;
 	text-align: center;
 	position: absolute;
@@ -433,7 +443,7 @@ top: -8px;
   font-size: 14px;
   line-height: 24px;
 }
-
+/*
 #ecommerceimage{
   height: 225.5px;
     width: 337px;
@@ -450,7 +460,7 @@ width: 320px;
 #socialimage{
   height: 225.5px;
   width: 337px;
-}
+}*/
 #heading2{
   color: white;
 }
