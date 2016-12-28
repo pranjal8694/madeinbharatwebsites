@@ -14,6 +14,18 @@ body {
   background-position-x: 50%;
 }
 
+#rupees{
+  font-size: 40px;
+}
+
+#websiteat{
+  color: white;
+
+}
+
+#madeinbharatco{
+  color: black;
+}
 ol, ul {
     margin: 0;
     padding: 0;
@@ -602,7 +614,7 @@ width: 320px;
 .contact-address p {
   line-height: 24px;
 }
-/*
+
 .contact-form {}
 
 .contact-form h3 {
@@ -674,13 +686,110 @@ label.error {
 
 
 
-*//*=========================================
+/*=========================================
 	Contact Us
 ==========================================*/
 
-/*
+
+.contact {
+	padding-bottom: 0;
+}
+
+.contact-address h3 {
+  color: #062033;
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 25px;
+}
+
+.contact-address p {
+  line-height: 24px;
+}
+
+.contact-form {}
+
+.contact-form h3 {
+  color: #062033;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 25px;
+}
+
+.contact-form .input-group {
+  width: 100%;
+}
+
+.contact-form .form-control {
+  border-color: -moz-use-text-color -moz-use-text-color #cccccc;
+  border-radius: 0;
+  border-style: none none solid;
+  border-width: 0 0 1px;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.contact-form .input-field {
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.contact-form .input-field:last-child {
+  margin-right: 0;
+}
+
+.contact-form .form-control.error {
+border-bottom-color: #c0392b;
+}
+
+label.error {
+  color: #c0392b;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+.contact-form #form-submit {
+  background: url("../img/envelop.png") no-repeat scroll 0 15px transparent;
+  border: 0 none;
+  color: #000;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px;
+  text-align: right;
+  width: 150px;
+}
+
+.footer-social {
+  margin-top: 17px;
+}
+
+.footer-social li a {
+  color: #cdd2d6;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#map_canvas {
+  height: 215px;
+  width: 100%;
+}
+
+
+
+
+/*=========================================
+	Contact Us
+==========================================*/
+
+#typeform{
+  border: 2px solid black;
+  padding: 10px;
+  color: black;
+}
+
 .footer {
-  background-color: #1ea78d;
+  background-color: #285ced;
   border-top: 5px solid #062033;
   color: #fff;
 }
@@ -695,7 +804,7 @@ label.error {
   line-height: 24px;
   margin-bottom: 30px;
 }
-*/
+
 .about-us p {
   line-height: 24px;
 }
@@ -704,7 +813,7 @@ label.error {
   margin-bottom: 15px;
   position: relative;
 }
-/*
+
 .subscribe #subscribe {
   background-color: transparent;
   border: 2px solid #fff;
@@ -722,7 +831,7 @@ label.error {
   right: 0;
   top: 6px;
 }
-*/
+
 .footer-single {
   line-height: 24px;
 }
@@ -738,7 +847,7 @@ label.error {
   margin: 0 10px;
 }
 
-/*.credit a {
+.credit a {
   color: #062033;
 }
 
@@ -750,7 +859,7 @@ label.error {
   color: #fff;
   margin-top: 100px;
 }
-*/
+
 #back-top {
   bottom: 20px;
   position: fixed;
