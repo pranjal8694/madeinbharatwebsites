@@ -783,9 +783,9 @@ label.error {
 ==========================================*/
 
 #typeform{
-  border: 2px solid black;
-  padding: 10px;
-  color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
 .footer {
